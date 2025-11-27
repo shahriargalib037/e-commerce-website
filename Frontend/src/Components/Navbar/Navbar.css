@@ -1,0 +1,95 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+.nav-logo p{
+    color:  #852f2f;;
+    font-size: 40px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    color: #cf1515;
+    font-weight: 550;
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.nav-menu li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+}
+
+/* .nav-menu hr{
+    border: none;
+    width: 100px;
+    height: 4px;
+    background-color: #090202;
+    border-radius: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+} */
+ .nav-menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.nav-menu hr {
+  display: block;   /* this will push it under the text */
+  margin: 5px auto; /* center the line */
+  width: 80%;      /* adjust for style */
+  height: 3px;
+  background-color: black;
+  border: none;
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.nav-login-cart button{
+    padding: 8px 16px;
+    background-color: #852f2f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-login-cart button:active{
+    background-color: #de8e52;
+}
+
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -40px;
+    border-radius: 11px;
+    background-color: #cf1515;
+    color: white;
+    font-size: 14px;
+}
